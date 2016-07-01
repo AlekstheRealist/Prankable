@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.13'
 
 # Devise
-gem 'devise'
+gem 'devise', '>= 3.2.4'
 
 #Twitter Bootstrap 3
 gem 'bootstrap-sass', '~> 3.3.5.1'
