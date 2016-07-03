@@ -27,7 +27,7 @@
             
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to 'Want More?', "#" %></li>
+            <li><%= link_to 'Want More?', want_more_path %></li>
             <li><%= link_to 'How it Works', "#" %></li>
             <% if current_user %>
               <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>

@@ -1,6 +1,8 @@
 Prankable::Application.routes.draw do
   devise_for :users
   root "static_page#index"
+  get 'want_more', to: "static_page#want_more"
+  get 'how_it_works', to: "static_page#how_it_works"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
