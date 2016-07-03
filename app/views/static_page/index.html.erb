@@ -5,7 +5,11 @@
       <br />
       <h1 class="text-center">Welcome to Prankable!</h1>
       <br />
-      <h2><%= link_to 'Prank Your Friends', "#", class: 'btn btn-primary' %></h2>
+      <% if current_user %>
+        <h2><%= link_to 'Get Started', '#', class: 'btn btn-primary' %></h2>
+      <% else %>
+        <h2><%= link_to 'Prank Your Friends', "#", class: 'btn btn-primary' %></h2>
+      <% end %>
       <br /><br />
     </div>
   </div>

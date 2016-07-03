@@ -28,7 +28,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to 'Want More?', want_more_path %></li>
-            <li><%= link_to 'How it Works', "#" %></li>
+            <li><%= link_to 'How it Works', how_it_works_path %></li>
             <% if current_user %>
               <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
             <% else %>
@@ -66,13 +66,13 @@
       </div>
 
       <div class="col-xs-12 col-sm-3 pull-right">
-        <%= link_to "How it Works", "#" %>
+        <%= link_to "How it Works", how_it_works_path %>
         <br />
         <%= link_to "Contact Us", "#" %>
         <br />
         <%= link_to "About", "#" %>
         <br />
-        <%= link_to "Want More?", "#" %>
+        <%= link_to "Want More?", want_more_path %>
       </div>
     </div>
   </div>
