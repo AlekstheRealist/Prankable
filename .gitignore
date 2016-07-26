@@ -15,3 +15,4 @@
 /log/*.log
 /tmp
 app/controllers/send-sms.rb
+app/controllers/twilio_controller.rb
